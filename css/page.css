@@ -1,0 +1,79 @@
+/* 分页
+--------------------------------------------------------------  */
+
+.paging 
+{
+	text-align:right;
+	padding-right:15px;
+	padding-top:20px;
+	}
+	.paging p 
+	{
+		display:inline;
+		}
+	.paging .paging-prev,
+	.paging .paging-next,
+	.paging .paging-go
+	{
+		display:inline-block;
+		width:60px;
+		height:20px;
+		overflow:hidden;
+		background-image:url(../images/paging.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/paging.jpg*/;
+		}
+	.paging .paging-next 
+	{
+		background-position:0 -20px;
+		}
+	.paging .paging-go 
+	{
+		width:44px;
+		margin-left:6px;
+		background-position:0 -40px;
+		}
+	.paging .paging-prev span,
+	.paging .paging-next span,
+	.paging .paging-go span 
+	{
+		display:none;
+		}
+	.paging .paging-a 
+	{
+
+		height:18px;
+		line-height:18px;
+		padding:0 5px;
+		border:1px solid #DDDDDD;
+		color:#666666;
+		overflow:hidden;
+		margin:0 2px;
+		vertical-align:top;
+		}
+	.paging .paging-this 
+	{
+		
+		height:20px;
+		line-height:20px;
+		padding:0 5px;
+		color:#F88216;
+		overflow:hidden;
+		margin:0 2px;
+		vertical-align:top;
+		}
+	.paging p.paging-right 
+	{
+		vertical-align:top;
+		margin-left:10px;
+		}
+	.paging .paging-text 
+	{
+		vertical-align:top;
+		}
+	.paging input 
+	{
+		width:34px;
+		height:16px;
+		padding:1px;
+		border:1px solid #CCCCCC;
+		margin:0 5px;
+		vertical-align:top;

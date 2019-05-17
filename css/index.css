@@ -1,0 +1,288 @@
+
+/*-------------------banner----------------------*/
+.head3{ width:100%; height:auto !important; position:relative;}
+.headimg img{ width:100%;}
+.imgtu{ width:100%; height:auto; padding:0; }
+.headimg{  width:100%; height:auto; padding:0; display:none;}
+
+.hd{ position:absolute;bottom:15px; left:45%; text-align:center; height:15px;}
+.slideBox .hd ul li{ display:inline;float:left;width:15px;height:15px;margin-left:15px;color:#fff;font-weight:bold;cursor:pointer;background:#ddd; border-radius:10px; /*opacity:0.5;filter:alpha(opacity=50);*/}
+.slideBox .hd ul li.on{ background:#fff; border-radius:10px;}
+
+/*-----------------主页样式开始---------------------------------*/
+.m1_title,.m21_title{ text-align:center; font-size:1.4em; font-weight:bold; line-height:3em; height:3em; margin-top:0.8em; }
+.m1_title{ background:url(../images/hx.png)/*tpa=http://www.yiliaoshebei.com.cn/images/hx.png*/ no-repeat bottom center;color:#0e3152;}
+.m1_title0,.m21_title0{ text-align:center; color:#666666; line-height:3em; height:3em;}
+.title_img{ text-align:center; margin-top:2em; margin-bottom:-0.5em;}
+.m1_con{ width:100%; height:auto;}
+.m1_con1{ width:24%; margin:0 0.5%; float:left; text-align:center; display:inline;}
+.m1_con1 img:hover{ opacity:0.6;filter:alpha(opacity=60); cursor:pointer;}
+.m1_con1 img{ margin:2em auto;}
+.m1_con1_t{ font-weight:bold;}
+.m1_con1_t a{ color:#0e3152; font-size:1.1em;}
+.m1_con1_t,.m1_con1_c{ line-height:1.5; padding:.2em .5em; color:#333333;}
+
+
+.m2{ width:100%; background:#587faa; height:auto !important; margin-top:20px;}
+.m21{ background:#75a4d7;  padding:5px 0 20px 0;}
+.m21_title{ background:url(../images/hx1.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/hx1.jpg*/ no-repeat bottom center; color:#fff;}
+.m21_title0{ color:#fff;}
+.m21_all{ margin-top:20px;}
+.m21_all_inall{ position:relative; text-align:center;}
+.m21_con_con{ width:100%; height:100%; overflow:hidden; position:absolute; top:0; left:0;  display:none;}
+
+.m21_con_con_in a{ color:#fff; display:block; width:67%; height:54%; top:18%; left:10%; z-index:10; position:absolute; overflow:hidden;}
+.m21_con_con a:hover{ color:#fff;}
+.plst_pt li:hover .m21_con_con{ display:block;}
+
+
+
+.m21_con_title{ position:absolute; bottom:-30px;  border:1px solid #ccc; padding:5px; width:88%; text-align:center; left:0px; border-radius:5px; }
+.m21_con_title a{  color:#fff;}
+.m21_con_title a:hover{ color:red;}
+.plst_pt{ overflow:hidden; _width:100%; }
+.plst_pt ul{ overflow:hidden; *zoom:1; width:210em; position:relative; padding-bottom:40px;}
+.plst_pt li{ float:left; margin-left:16px; display:inline; text-align:center;}
+.plst_pt li img{ display:block; width:210px; height:230px; margin-bottom:5px; border:none;}
+
+.roll_cnt{ padding:0 1% 0 3%;}
+.wp_roll { position: relative; _width: 100%;}
+.roll_lt, .roll_rt { position: absolute; top:35px; left: 1px; width: 67px; height: 151px; z-index:10; text-align:center;}
+.roll_lt,.a_left{ left:-67px; background:url(../images/left_bg.png)/*tpa=http://www.yiliaoshebei.com.cn/images/left_bg.png*/ no-repeat;}
+.roll_rt,.a_right{ margin-left:99.9%; background:url(../images/right_bg.png)/*tpa=http://www.yiliaoshebei.com.cn/images/right_bg.png*/ no-repeat;}
+.roll_lt img,.roll_rt img,.a_left img,.a_right img{ margin-top:80%;}
+.roll_lt:hover, .roll_rt:hover,.a_left:hover,.a_right:hover { color: #000; opacity:0.6; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+.a_left,.a_right{  position: absolute; top:35px; left: 1px; width: 67px; height: 151px; z-index:5; text-align:center;}
+.a_left{ left:-67px; background:url(../images/left_bg.png)/*tpa=http://www.yiliaoshebei.com.cn/images/left_bg.png*/ no-repeat;}
+/*.m21_con_left,.m21_con_right{ width:60px; height:120px; background:#75a4d7; position:absolute; top:80px;}
+.m21_con_left{ margin-left:-60px; border-top-left-radius:60px; border-bottom-left-radius:60px;}
+.m21_con_right{ right:-60px; border-top-right-radius:60px; border-bottom-right-radius:60px;}
+.m21_con_left:hover,.m21_con_right:hover{ background:#06C;}*/
+
+
+
+
+.m3_con{width:100%; height:auto; margin:1.5em 0;  display:inline;}
+.m3_con1{width:24%; margin:0 0.25%; float:left; text-align:center;position:relative; border:1px solid #999; border-radius:5px; display:inline;}
+.m3_con1 img{ width:98%; padding:1% 1%;  display:inline; }
+.m3_con1_t{ float:left; width:98%; margin:1% 1%; border-radius:0 0 5px 5px; height:30px;  position:absolute;bottom:0px; line-height:30px; display:block; cursor:pointer; }
+.m3_con1_t a{color:#fff;}
+.m3_con1_t1{ z-index:1; background:#000;  opacity:0.6; filter:alpha(opacity=60); }
+.m3_con1_t2{ z-index:2;}
+/*.m3_con1:hover .m3_con1_t{ display:block; cursor:pointer;}*/
+
+.m4_con{ height:auto; width:100%; margin:1em 0 2.5em 0; position:relative;}
+.m4_in{ position:absolute; width:100%; height:100%; top:0;}
+.m4_in_a{ width:11%; float:left;}
+.m4_in_con{ width:10.8%; margin-left:4%; float:left;}
+.m4_in_con,.m4_in_a{ text-align:center; margin-top:6%;}
+.m4_con img{ width:100%;}
+
+.ad1{ width:100%; height:auto !important; position:relative;}
+.ad1 img{ width:100%; height:100%;}
+.ad1_btn{ width:280px; margin-left:23%; text-align:center; font-size:1.2em; font-weight:600;position:absolute; bottom:35%;}
+.ad1_btn a{ color:#fff; display:inline; padding:0.3em 3em; background:#f16741; box-shadow:0 2px 3px 0 #BCBCBC;}
+.ad1_btn a:hover{ background:#f34313; text-decoration:none; color:#fff;}
+
+
+.m5_con{ width:90%; margin:1em auto; height:auto !important; overflow:hidden;}
+.m5_con_left{ float:left; width:36%; margin:1em; display:inline;}
+.m5_con_left img{ width:100%;}
+.m5_con_right{ float:left; width:55%; margin-left:20px;xline-height:1.5; display:inline; }
+.m5_con_right p{ color:#000;}
+.more{ float:right; bottom:0;height:30px; width:88px; text-align:center; line-height:30px; border:1px solid #ccc; border-radius:5px;}
+.more a{ color:#264d7e;}
+.more a:hover{ color:red;}
+
+.m6{ width:100%; height:auto !important; background:#e9edf0; }
+.m61_con{ width:100%; height:auto; margin-top:20px; margin-bottom:20px;}
+.m61_con1,.m61_con2,.m61_con3{ width:32%; height:auto; float:left; display:inline;}
+
+.m61_con1_top{ position:relative;}
+.m61_con1_top_con{ position:absolute; bottom:0; color:#fff; height:35%; width:40%; overflow:hidden; line-height:1.5;}
+.m61_con1_top_con a{ color:#fff;}
+.m61_sp1{ font-size:1em; margin-left:3%; display:block;}
+.m61_sp2{ font-size:1em; display:block; text-align:center;}
+
+.m61_con2,.m61_con3{ margin-left:2%;}
+.m61_con img{ width:95%;}
+.m61_con ul{ width:100%; margin:.8em 0px .8em 2em; display:inline; *position:relative; }
+.m61_con ul li{ line-height:30px; height:30px; overflow:hidden; top:0; left:0; background:url(../images/aric.png)/*tpa=http://www.yiliaoshebei.com.cn/images/aric.png*/ no-repeat left center; padding-left:.8em; font-size:12px;}
+.left_more{ float:left; margin-left:10px; font-size:14px; display:inline;}
+.left_more a{  color:#264d7e; }
+.left_more a:hover{ color:red;}
+
+.demo2_left{ display:block; width:40%; float:left; overflow:hidden;}
+.demo2_right{ display:block; width:57%; float:right; overflow:hidden; color:#004182;}
+.m61_con3  ul li span:first-child{ color:#888888;}
+
+/*-----------------主页样式结束---------------------------------*/
+
+
+/*-----------------设备科样式开始---------------------------------*/
+.banner{ width:100%; height:auto; position:relative; }
+.banner img{ width:100%;}
+
+.banner_con{width:100%; position:absolute; margin:0 auto; bottom:3%; }
+.banner_con ul{ margin:0 auto; text-align:center;}
+.banner_con ul li{ display:inline-block;}
+.banner_con ul li a{ display:block; padding:20px 35px; text-decoration:underline; color:#a85d00; font-size:1.2em;}
+.banner_con ul li:hover a{ color:#000000;}
+
+@media screen and (max-width:1199px){	
+.sbk1,.sbk20,.sbk3,.sbk40,.sbk5,.sbk60,.sbk7,.sbk80,.sbk9,.sbk100,.sbk11,.fw2_title{ width:880px; margin:10px auto; height:auto !important;}
+}
+@media screen and (min-width:1200px){	
+.sbk1,.sbk20,.sbk3,.sbk40,.sbk5,.sbk60,.sbk7,.sbk80,.sbk9,.sbk100,.sbk11,.fw2_title{width:65%; margin:10px auto; height:auto !important;}
+}
+.sbk2,.sbk4,.sbk6,.sbk8,.sbk10{ width:100%;  height:auto !important; height:auto; background:#f5f5f5;}
+
+
+
+.sbk1_title{ width:100%; height:90px; background:url(../images/sbk1.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/sbk1.jpg*/ no-repeat center top; text-align:center; font-size:1.4em; color:#0e3152; font-weight:bold; line-height:100px;}
+.sbk1_con{ width:100%; margin-top:-20px; padding-bottom:10px;}
+.sbk1_con p{ text-indent:28px; line-height:1.8; color:#000;}
+
+
+.sbk20_left,.sbk40_left,.sbk60_left,.sbk9_left,.sbk11_left{ float:left; width:52%; margin:60px 0; overflow:hidden;}
+.sbk_in_title{ font-size:1.2em;}
+.sbk_in_con{ margin-top:10px; line-height:1.8; margin-bottom:15px; }
+.sbk_in_con span{ display:block; color:#333;}
+.sbk20_right,.sbk40_right,.sbk60_right,.sbk9_right,.sbk11_right{ float:right; width:44%; margin:30px 0; overflow:hidden;}
+.sbk20_right img{ width:100%; }
+
+.sbk3_left,.sbk5_left,.sbk80_left,.sbk100_left{ float:left; width:43%; overflow:hidden;}
+.sbk3_left img{ height:100%;  width:100%; }
+.sbk3_right,.sbk5_right,.sbk80_right,.sbk100_right{ float:right; width:54%; margin:60px 0; overflow:hidden;}
+
+.zixun0{ float:right; margin-right:30px; background:url(../images/zixun0.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/zixun0.jpg*/ no-repeat;}
+.zixun0 a,.zixun1 a,.zixun2 a,.sbk_more a{ display:block; width:148px; height:45px; text-align:center; line-height:44px; color:#fff;}
+.zixun0 a:hover,.sbk_more a:hover{ background:url(../images/zixun0_h.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/zixun0_h.jpg*/ no-repeat;}
+
+.sbk40_right img{ height:100%;  width:100%;}
+.sbk5_left img{ height:100%; width:100%;}
+.sbk60_right img{ height:100%;  width:100%;}
+
+.zixun1,.zixun2{ margin-top:50px; background:url(../images/zixun.png)/*tpa=http://www.yiliaoshebei.com.cn/images/zixun.png*/ no-repeat;}
+.zixun1 a:hover,.zixun2 a:hover{ background:url(../images/zixun_h.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/zixun_h.jpg*/ no-repeat;}
+.zixun1{ float:left; margin-left:30px;}
+.zixun2{ float:right; margin-right:30px;}
+
+.sbk7_in{ margin:40px 0;}
+.sbk7_img{ margin-top:20px;}
+.sbk7_img img{ width:100%;}
+
+.sbk80_left{ margin:30px auto;}
+.sbk80_left img{ width:100%; height:100%;}
+.sbk9_right img{ width:100%;}
+.sbk100_left img{ width:100%; height:100%;}
+.sbk11_right img{ width:100%; height:100%;}
+
+.sbk_more{ width:148px; margin:30px auto; background:url(../images/zixun0.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/zixun0.jpg*/ no-repeat;}
+/*-----------------设备科样式结束---------------------------------*/
+
+/*-----------------创优评级样式开始---------------------------------*/
+.cy20_left,.cy40_left,.cy60_left,.cy80_left{ float:left; width:51%; margin:60px 0; overflow:hidden;}
+.cy20_right,.cy40_right,.cy60_right,.cy80_right{ float:right; width:44%; overflow:hidden;}
+.cy3_left,.cy5_left{float:left; width:45%; overflow:hidden;}
+.cy3_right,.cy5_right{ float:right; width:51%; overflow:hidden; margin:60px auto;}
+
+.cy_in{ color:#333; line-height:1.8;}
+.cy_in_title{ color:#0070c0;}
+.cy3_left{ margin:10px auto;}
+.cy20_right img{height:100%;}
+.cy3_left img{ width:100%;}
+.cy40_right img{ width:100%;}
+.cy60_right img{ width:100%;}
+.cy80_right img{ width:100%;}
+
+.cy_con{ text-align:center; margin-top:-20px; padding-bottom:10px;}
+.cy_con p{ color:#000;}
+
+/*-----------------创优评级样式结束---------------------------------*/
+
+/*-----------------服务最好样式开始---------------------------------*/
+.sbk1_con span{ display:block; color:#333;}
+.fw2_title .m1_title{ font-size:1.2em;}
+
+.fw20_left,.fw40_left,.fw60_left,.fw80_left,.fw100_left,.fw13_left{ float:left; width:50%; overflow:hidden;}
+.fw40_left,.fw60_left{ margin:30px auto;}
+.fw20_left,.fw9_left,.fw100_right{ margin:20px auto;}
+
+.fw20_right,.fw40_right,.fw60_right,.fw100_right,.fw13_right{ float:right; width:45%; overflow:hidden;}
+
+.fw_ft_title{ text-align:center; display:block; font-size:1.1em; color:#333; margin-bottom:15px; height:40px;}
+
+.fw3_left,.fw9_left,.fw11_left,.fw12_left{ float:left; width:45%;overflow:hidden;}
+.fw3_right,.fw5_right,.fw9_right,.fw11_right,.fw12_right{ float:right; width:50%; overflow:hidden; }
+.fw3_right,.fw80_left,.fw9_right,.fw100_left,.fw12_right{  margin:60px 0;}
+.fw5_right,.fw11_left,.fw11_right{  margin:20px 0;}
+.fw12_left{ margin-bottom:10px;}
+
+.fw20_right1{ float:left; width:72%;}
+.fw20_right1 img{ width:100%;}
+.fw20_right2{ float:left; width:28%;}
+.fw20_right2 img{ width:108%; margin-left:-10%;}
+.fw3_left img{ width:100%;}
+.fw40_right1{ width:40%; float:left; margin-left:15%; margin-top:10%;}
+.fw40_right2{ width:40%; float:right; margin-left:5%; margin-top:10%;}
+.fw40_right1 img,.fw40_right2 img{ width:100%;}
+.fw60_right img{ width:100%;}
+.fw11_left img,.fw11_right img,.fw12_left img{ width:100%;}
+
+.fw13_left{ margin:60px auto;}
+.fw13_left_title{ color:#333; font-size:1.1em; height:40px; line-height:40px;}
+.fw13_left1{ width:49%; float:left;}
+.fw13_left2{ width:49%; float:right;}
+.fw13_left1 img,.fw13_left2 img{ width:100%;}
+.fw13_right img{ height:100%;}
+/*-----------------服务最好样式结束--------------------------------*/
+
+/*-----------------市场占有率最高样式开始---------------------------------*/
+.sc20_left,.sc40_left,.sc60_left{ float:left; width:50%; overflow:hidden;}
+.sc20_left{ margin:80px auto;}
+.sc40_left,.sc40_right,.sc60_left{ margin:60px auto;}
+.sc3_right{ margin:120px auto;}
+.sc20_right,.sc40_right,.sc60_right{ float:right; width:45%; overflow:hidden;}
+
+.sc3_left,.sc5_left,.sc9_left{ float:left; width:45%; overflow:hidden;}
+.sc3_right,.sc5_right,.sc9_right{ float:right; width:50%; overflow:hidden;}
+.sc5_left{ margin:20px auto;}
+.sc5_right,.sc9_right{ margin:40px auto;}
+.sc20_right img,.sc60_right img,.sc9_left img{ width:100%; height:100%; margin:30px auto;}
+.sc40_right img{ width:100%;}
+
+/*-----------------市场占有率最高样式结束---------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

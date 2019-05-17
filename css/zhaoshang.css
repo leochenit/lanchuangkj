@@ -1,0 +1,148 @@
+.banner{
+    width: 100%;
+    height: 500px;
+    background: url("../images/blbanner.png")/*tpa=http://www.yiliaoshebei.com.cn/images/blbanner.png*/;
+    text-align: center;
+    position: relative;
+}
+.banner img{
+    width: 400px;
+    height: 235px;
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    margin: auto;
+}
+.gray{background: #f2f2f2}
+.module_title{
+    width: 100%;
+    padding: 30px 0;
+    margin: auto;
+    text-align: center;
+}
+.module_name{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 35px 0;
+}
+.module_line{
+    background: url("../images/moudelLine.png")/*tpa=http://www.yiliaoshebei.com.cn/images/moudelLine.png*/;
+    height: 3px;
+    width: 93px;
+    margin: auto;
+}
+.module_content{
+    width: 930px;
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    font-size: 0;
+    /*padding: 40px 0;*/
+    box-sizing: border-box;
+    position: relative;
+}
+.module_content div{
+    font-size: 16px;
+    display: inline-block;
+    width: 50%;
+    text-align: justify;
+    line-height: 40px;
+}
+.img_container{
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+.img_container1{
+    position: absolute;
+    top: 50px;
+    right: -150px;
+}
+.module_text{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.module_content div.module_text1{
+    position: absolute;
+    top: 100px;
+    left: 2%;
+    width: 60%;
+}
+.module_content div.module_text2{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 60%;
+}
+.flow{
+    width: 930px;
+    font-size: 0;
+    margin: auto;
+    padding: 40px 0;
+}
+.flow div{
+    border: 1px solid #999999;
+    display: inline-block;
+    font-size: 16px;
+    width: 19%;
+    padding: 40px 0;
+    height: 150px;
+    margin: 0 2.5%;
+    vertical-align: text-bottom;
+    position: relative;
+}
+.flow div p{
+    margin-top: 25px !important;
+}
+b.lc_arrow{
+    width: 12px;
+    height: 21px;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    background: url("../images/arrow.png")/*tpa=http://www.yiliaoshebei.com.cn/images/arrow.png*/ no-repeat;
+}
+.tishi{
+    padding: 20px 0;
+}
+.chanchu{
+    width: 930px;
+    font-size: 0;
+    margin: auto;
+    padding: 40px 0;
+}
+.chanchu div{
+    width: 45%;
+    display: inline-block;
+    margin: 0 1%;
+}
+.chanchu div img{
+    width: 90%;
+}
+.img_container7{
+    position: absolute;
+    top: 50px;
+    left: 5%;
+}
+.module_tel img{
+    vertical-align: middle;
+}
+.online{
+    background: #348DE5;
+    color: #ffffff;
+    border-radius: 6px;
+    outline: none;
+    border: 0;
+    width: 50%;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.module_text7{
+    position: absolute;
+    right: -5%;
+    top: 35%;
+}

@@ -1,0 +1,143 @@
+body, button,th, td, input, select, textarea { font-family:"微软雅黑";font-size:14px;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, textarea, p { margin: 0; padding: 0 }
+body{position:relative; min-width:1200px;}
+body#products{background:#F06900}
+body#csr{background:#6EB820}
+p{line-height:1.5em;margin:1em auto;color:#666666}
+a{color:#888888;text-decoration:none}
+a:hover{ color:red;}
+a.link{display:block;color:#444;line-height:1.3em;text-indent: 20px;background: transparent url(../images/diandian.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/diandian.jpg*/ scroll 0 5px no-repeat;}
+a.link:hover{color:#3A80A1;text-decoration:underline} 
+ul li{ list-style-type:none;}
+.clear{ clear:both;}
+img { border:none;}
+
+@media screen and (max-width:1199px){	
+.head2_in{ width:950px; margin:auto;}
+.head1_in,.m1,.m3,.m4,.m5,.m21,.m61,.f_in,.f_in2,.f_in3,.jjfa{ width:950px; margin:10px auto; height:auto !important;}
+}
+@media screen and (min-width:1200px){	
+.head2_in{ width:75%; margin:auto;}
+.head1_in,.m1,.m3,.m4,.m5,.m21,.m61,.f_in2,.f_in3,.jjfa{width:75%; margin:10px auto; height:auto !important;}
+}
+
+/*----------------------------head-----------------------------*/
+.head{ width:100%; height:auto!important;}
+.head1{ width:100%; height:30px; background:#f1f1f1; font-size:0.9em;}
+.head1_in{ margin:auto; line-height:30px;}
+.head1_in_left{ float:left;}
+.head1_in_right{ float:right;}
+.head1_in_right ul li{ float:left; margin-left:30px;}
+.head1_in_right ul li a{ color:#000;}
+.head1_in_right ul li a:hover{ color:red;}
+.head1_phone{ background:url(../images/phone.png)/*tpa=http://www.yiliaoshebei.com.cn/images/phone.png*/ no-repeat center left;}
+.head1_phone a{ margin-left:1.4em;}
+.head2{ margin:auto; height:auto; position:relative; background:#f9f9f9; width:100%; z-index:990;}
+.head2_left{ float:left; margin-top:15px;}
+.head2_right{ float:right; margin-top:26px; }
+.nav_li{ float:left; padding:0.5em 0.9em; position:relative;}
+.nav_li a{ color:#0e3050; font-size:1.2em; }
+.nav_li a:hover{ color:red; text-decoration:none; cursor:pointer;}
+
+.nav_li:hover .nav_li_all{ display:block; }
+.nav_li_all{ display:none;}
+
+.sanjiao{  position:absolute; width:60px; height:10px; background:url(../images/sanjiao.png)/*tpa=http://www.yiliaoshebei.com.cn/images/sanjiao.png*/no-repeat center; bottom:-0.5em;}
+
+.sanjiao1{ margin-bottom:0.5em;  background:url(../images/sanjiao.png)/*tpa=http://www.yiliaoshebei.com.cn/images/sanjiao.png*/ no-repeat left;}
+/*.nav_li_con ul,.nav_li_con3 ul{  position:absolute; height:auto; display:inline-block;  top:3em; z-index:1; left:-100px; background:#ecf0f5; padding:1em 1.5em; border-radius:5px;}*/
+.nav_li_all{ background:#ecf0f5;}
+.nav_li_all ul li{  line-height:30px; height:30px;}
+.nav_li_all ul li a{ font-size:1em; font-weight:normal; padding:0 1em;}
+.nav_li_con0 ul,.nav_li_con2 ul{  position:absolute; height:auto; display:inline-block;  top:3em; z-index:990; right:0; background:#ecf0f5; padding:1em 1.5em 1.5em 1em; border-radius:5px;}
+.nav_li_conin,.nav_li_conin1{  position:absolute; height:130px; display:inline-block; top:3em; z-index:990; left:-100px; background:#ecf0f5; padding:1em 1.5em; border-radius:5px;}
+.nav_li_conin{ width:300px;}
+.nav_li_conin1{ width:590px;}
+.nav_li_conin .ul1{ width:146px; border-right:1px solid #ccc;}
+.nav_li_conin .ul2{ margin-left:150px; margin-top:-120px;}
+.nav_li_all ul li .t01{font-weight: bold;font-size: 15px;}
+.nav_li_all ul li .t01:hover{font-weight: bold;    color: #0e3050;}
+.nav_li_conin1 .ul1 { width:200px; border-right:1px solid #ccc;}
+.nav_li_conin1 .ul2{ margin-left:200px; width:180px; margin-top:-120px; border-right:1px solid #ccc;}
+.nav_li_conin1 .ul3{ margin-left:380px; margin-top:-120px;}
+
+.nav_li_conin2{  position:absolute; height:auto; width:220px; display:inline-block; top:3em; z-index:990; left:-80px; background:#ecf0f5; padding:1em 1.5em; border-radius:5px;}
+.nav_li_conin2 .ul1 { width:220px; border-right:none;}
+.nav_li_conin2 .ul2{ margin-left:180px; width:250px; margin-top:-120px; border-right:1px solid #ccc;}
+.nav_li_conin2 .ul3{ margin-left:430px; margin-top:-120px;}
+
+.nav_li_conin3{ position:absolute; height:70px; width:410px; display:inline-block; top:3em; z-index:990; left:-150px; background:#ecf0f5; padding:1em 1.5em; border-radius:5px;}
+.nav_li_conin3 .ul1 { width:120px; border-right:1px solid #ccc;}
+.nav_li_conin3 .ul2{ margin-left:120px; width:170px; margin-top:-60px; border-right:1px solid #ccc;}
+.nav_li_conin3 .ul3{ margin-left:290px; margin-top:-60px;}
+
+
+.nav_li_con0 ul{ width:260px;}
+.nav_li_con2 ul{ width:540px;}
+.nav_li_con2 ul li,.nav_li_con0 ul li{ float:left;}
+.nav_li_con2 ul li a,.nav_li_con0 ul li a{  border-right:1px solid #999;}
+.nav_li_con2 li:first-child a{ font-weight:bold; border:none; font-size:1em; padding-right:0;}
+.nav_li_con2 ul li a{ font-size:0.8em;}
+.nav_li_all li:last-child a{ border:none;}
+
+/*----------搜索框样式--------*/
+*:focus{ outline:none;}
+.search_all{ height:28px; display:inline; float:right; background:#fff; margin-top:.5em; margin-left:15em;}
+.search_all .input{ border:1px solid #999; height:100%;}
+.search_all .input .clear{width: 30px;height: 30px;line-height: 30px;text-align: center;cursor: pointer;padding-right: 10px;visibility: hidden;opacity: 0.8;color: gray;}
+.search_all input[type=text]{ height:90%; border:0px; width:240px;}
+.search_all div{ float:left;}
+.search_all>button{width:50px;height:30px;background:#3f73ad;color: #fff;border: none;}
+/*------------------*/
+
+/*----------------footer----------------------*/
+.footer{ width:100%; height:auto !important; background:#0f1e31;}
+.f_in{ width:950px; margin:10px auto;}
+.f_in ul:first-child{ margin-left:-1.5em; }
+.f_in ul{float:left; margin-top:3em; padding:1em 1.5em; height:auto; margin-left:1.7em;}
+.f_in ul li:first-child{ font-size:1.2em; color:#fff;}
+.f_in ul li:first-child a{  color:#fff;}
+.f_in ul li{ line-height:30px; height:30px;}
+.f_in ul li a{ color:#cdcece;}
+.f_in ul li a:hover{ color:red;}
+.f_in2{ color:#fff; text-align:center;}
+.f_in2 span{ font-weight:bold;}
+.f_in2 a{ padding:0 5px;  display:inline; color:#cdcece;}
+.f_in2 a:hover{ color:red;}
+.f_in3{ text-align:center; color:#fff; margin-top:10px; padding-bottom:50px; }
+.s_big{ font-size:1.2em; font-weight:blod;}
+
+/*-------------------------悬浮框----------------------*/
+.fanhui{ width:80px; height:80px; background-color:#e2e6e8; background-image:url(../images/fanhui.png)/*tpa=http://www.yiliaoshebei.com.cn/images/fanhui.png*/;;background-repeat:no-repeat;background-position:center 30%;  border-radius: 10px 0 0 10px;  text-align:center; position:fixed; right:0; bottom:10px;_position: absolute; _right: auto; line-height:110px; z-index:100; cursor:pointer; color:#245075;}
+.fanhui:hover{background-color:#537591; background-image:url(../images/fanhui_h.png)/*tpa=http://www.yiliaoshebei.com.cn/images/fanhui_h.png*/; color:#fff;}
+
+.float_rt{ position:fixed; right:1px; top:150px; z-index:100;}
+.float_rt ul li{ position:relative;width:80px;height:80px;background-color:#e2e6e8; text-align:center;background-repeat:no-repeat;background-position:center 35%;cursor:pointer; margin-top:5px; z-index:100;  border-radius:10px 0 0 10px;}
+.weixin{ background-image:url(../images/erweima.png)/*tpa=http://www.yiliaoshebei.com.cn/images/erweima.png*/;}
+.weixin:hover{ background-image:url(../images/erweima_h.png)/*tpa=http://www.yiliaoshebei.com.cn/images/erweima_h.png*/;}
+.online_kefu{ background-image:url(../images/kefu.png)/*tpa=http://www.yiliaoshebei.com.cn/images/kefu.png*/;}
+.online_kefu:hover{ background-image:url(../images/kefu_h.png)/*tpa=http://www.yiliaoshebei.com.cn/images/kefu_h.png*/;}
+.relate_phone{ background-image:url(../images/rphone.png)/*tpa=http://www.yiliaoshebei.com.cn/images/rphone.png*/;}
+.relate_phone:hover{ background-image:url(../images/rphone_h.png)/*tpa=http://www.yiliaoshebei.com.cn/images/rphone_h.png*/;}
+.float_rt ul li:hover{ background-color:#537591;}
+.float_rt ul li:hover span{ color:#fff;}
+.float_rt ul li:hover .float_left{ display:block;}
+.float_rt ul li span{ color:#245075; display:block; padding-top:56px;}
+.float_left{ position:absolute;  top:0; display:none; z-index:100;}
+.erweima{width:226px;height:129px; left:-226px; background-image:url(../images/weixin.png)/*tpa=http://www.yiliaoshebei.com.cn/images/weixin.png*/; background-repeat:no-repeat;}
+.phone{width:226px;height:81px; left:-226px; background:url(../images/rphone_left.png)/*tpa=http://www.yiliaoshebei.com.cn/images/rphone_left.png*/ no-repeat; color:#fff;}
+.f_phone{ height:30px; line-height:30px; display:block; margin-top:6px;}
+.s_color{ font-size:1em; font-weight:bold; display:inline-block;}
+.banner_banner_solider img{ width:100%;}
+
+
+/*lanchuang for 2018-05-08*/
+.div_title {line-height: 18px; border-left: 5px solid #3daee9; margin-top: 40px; margin-bottom: 50px; padding-left:10px; width: 338px; height: 20px; color: #000; font-size: 18px; font-weight: bold;}
+
+
+
+
+
+
+
+

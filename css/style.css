@@ -1,0 +1,878 @@
+.t12 {  font-size: 12px; color: #333333}
+.t12a {  font-size: 12px; color: #999999}
+.t12b {  font-size: 12px; color: #000000}
+.t12c {  font-size: 12px; color: #666666}
+
+body, button,th, td, input, select, textarea { font-family:"微软雅黑";font-size:14px;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, textarea, p { margin: 0; padding: 0 }
+body{position:relative; min-width:1000px;}
+body#products{background:#F06900}
+body#csr{background:#6EB820}
+p{line-height:1.5em;margin:1em auto;color:#666666}
+a{color:#888888;text-decoration:none}
+a:hover{ color:red;}
+a.link{display:block;color:#444;line-height:1.3em;text-indent: 20px;background: transparent url(../images/diandian.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/diandian.jpg*/ scroll 0 5px no-repeat;}
+a.link:hover{color:#3A80A1;text-decoration:underline} 
+ul li{ list-style-type:none;}
+.clear{ clear:both;}
+img { border:none;}
+
+@media screen and (max-width:1199px){	
+.head2_in{ width:950px; margin:auto;}
+.head1_in,.m1,.m3,.m4,.m5,.m21,.m61,.f_in,.f_in2,.f_in3,.jjfa{ width:950px; margin:10px auto; height:auto !important;}
+}
+@media screen and (min-width:1200px){	
+.head2_in{ width:75%; margin:auto;}
+.head1_in,.m1,.m3,.m4,.m5,.m21,.m61,.f_in2,.f_in3,.jjfa{width:75%; margin:10px auto; height:auto !important;}
+}
+
+
+input.text{line-height:16px;border:solid;padding:1px;border-width:2px 1px 1px 2px;border-color:#808080 #D4D0C8 #D4D0C8 #808080;background-color:#FFFFFF;width:205px;height:21px;width:200px;height:16px}
+input.button{padding:0 3px}
+input.file{line-height:16px;background-color:#FFFFFF}
+select{}
+/*textarea{width:150px;height:100px;border:solid;border-width:1px 1px 1px 1px;border-color:#404040 #D4D0C8 #D4D0C8 #404040; padding-right:10px; margin-left:5px; margin-top:20px}*/
+.hackbox{border-top:1px solid transparent !important;margin-top:-1px !important;border-top:0;margin-top:0;clear:both;visibility:hidden}
+.disappear{display:none;}
+.h4,.h2,.h3,.h5{margin:0;padding:0}
+.h3 a{display:block;height:100%}
+.main{width:847px;height:30px;}
+	#products .main{background-image:url(file:///C|/Users/Administrator/Desktop/images/main_orange.gif)}
+	#csr .main{background-image:url(file:///C|/Users/Administrator/Desktop/images/main_green.gif)}
+
+/*
+.ul{padding:0;margin:0;list-style-type:none}
+.ul a{display:block;width:100%;height:100%}
+*/
+
+.home{background:transparent url(file:///C|/Users/Administrator/Desktop/images/home.gif) scroll 0 0 no-repeat}
+
+.searchResult{position:relative;margin-bottom:36px;}
+.searchResult .h3{ height:33px; background:transparent url(file:///C|/Users/Administrator/Desktop/images/search_result.gif) scroll 0 0 no-repeat}
+
+#container{margin:0;text-align:left;
+           /*background:transparent url(file:///C|/Users/Administrator/Desktop/images/bg_wrapper_blue.gif) scroll 50% 100% no-repeat;*/ 
+           background:#f5f5f5;}
+#products #container{background-image:url(file:///C|/Users/Administrator/Desktop/images/bg_wrapper_orange.gif)}
+#csr #container{background-image:url(file:///C|/Users/Administrator/Desktop/images/bg_wrapper_green.gif)}	
+
+/* Head 
+#header{width:945px;position:relative;z-index:9;margin:0 auto;text-align:left;padding:10px 0 18px 0;background:transparent url(../images/bg-content-top.png) scroll 0 100% no-repeat}
+	#logo{width:310px;height:68px;margin:0;margin:0 0 0 5px;background-position:0 0;overflow:hidden}
+		#logo a{display:block;width:100%;height:100%;overflow:hidden}
+		#logo a span{display:block;text-indent:-9999px}
+	#site-search{margin:0;padding:0;position:absolute;top:32px;right:0px;width:195px;height:25px;}
+		#site-search label{display:none}
+		#site-search input.text{float:left;margin:0;padding:3px 0 3px 20px;width:170px;height:15px;background:transparent scroll -283px 6px no-repeat;border:1px solid #FFFFFF; background:#FFFFFF;color:#fff;font-size:13px;font-weight:bold;}
+		#products #site-search input.text{border-color:#F5964D;}
+		#csr #site-search input.text{border-color:White;}
+		#site-search input.submit{display:inline;float:right;cursor:pointer;border:none;float:left;width:30px;height:14px;margin:4px 0 0 7px;text-indent:-9999px;background-position:3px -347px; background:url(../images/sousuo.jpg); }
+	#corporateNav{height:16px;position:absolute;top:35px;right:450px;margin:0;padding:1px 0;font-family:"宋体";color:#636363;}
+	#corporateNav a {
+	     color:#FFFFFF;
+		 text-decoration:none;
+		 font-family:"宋体";
+		 }
+	#corporateNav .nav li{display:block;float:left;height:16px;margin:0 7px 0 7px}
+	#corporateNav .nav li.navHome{width:24px}
+	#corporateNav .nav li.navJob{width:48px}
+	#corporateNav .nav li.navContact{width:49px}
+	#corporateNav .nav li.navMedia{width:61px;margin-right:14px}
+	#corporateNav .nav li.navRss{width:38px;margin-left:0;padding-left:14px;border-left:solid 1px #4d7ec6}
+	#products #corporateNav .nav li.navRss{border-color:#F5964D}
+	#csr #corporateNav .nav li.navRss{border-color:#9ACD63}
+	#corporateNav .nav li.navGlobal{width:62px}
+	#corporateNav .nav li a{display:block;overflow:hidden;height:100%;overflow:hidden}
+	#corporateNav .nav li.navHome a{width:24px;}
+	#corporateNav .nav li.navJob a{width:48px;}
+	#corporateNav .nav li.navContact a{width:49px;}
+	#corporateNav .nav li.navMedia a{width:61px;}
+	#corporateNav .nav li.navRss a{width:38px;}
+	#corporateNav .nav li.navGlobal a{width:62px;}
+	#corporateNav .nav li a span{display:block;}
+*/
+
+
+
+/* BODY */
+#main{margin:0 auto;width:100%;position:relative;z-index:10; font-family:"宋体";color:#636363; margin-top:20px;
+	top: 0px;
+	left: 0px;
+}
+	/* Menu */
+	#menu{left:25px;position:absolute;z-index:11;height:50px;width:900px}
+	#menu li{display:block;float:left;width:179px;height:50px;margin-right:1px;background:transparent url(../images/menu_new.gif)/*tpa=http://www.yiliaoshebei.com.cn/images/menu_new.gif*/ scroll 0 -200px no-repeat}
+	#menu li.menuCompany{background-position:0 -200px}
+	#menu li.menuProducts{background-position:-200px -200px}
+	#menu li.menuInnovate{background-position:-400px -200px}
+	#menu li.menuCsr{background-position:-600px -200px}
+	#menu li.menuNews{background-position:-800px -200px}
+	#menu li a{display:block;width:179px;height:50px;overflow:hidden;z-index:90;position:relative}
+	#menu li a span{display:block;text-indent:-9999px}
+	#menu li div{margin:0;padding:0 10px 20px 10px;width:157px;height:auto;border:1px solid #cccccc;border-top:0;background:#fff url(../images/menu_new.gif)/*tpa=http://www.yiliaoshebei.com.cn/images/menu_new.gif*/ scroll -1px -300px no-repeat;color:#999999;position:absolute;top:0;z-index:89;overflow:hidden}
+	#menu li.menuProducts div{background-position:-201px -300px}
+	#menu li.menuInnovate div{background-position:-401px -300px}
+	#menu li.menuCsr div{background-position:-601px -300px}
+	#menu li.menuNews div{background-position:-801px -300px}
+	#menu li div a{float:none;margin:0;padding:7px 0;width:157px;height:auto;border-bottom:1px solid #e5e5e5;color:#3A80A1;font-size:12px;font-family:"宋体"}
+	#menu li.menuProducts div a{color:#3A80A1}
+	#menu li.menuInnovate div a{color:#3A80A1}
+	#menu li.menuCsr div a{color:#3A80A1}
+	#menu li.menuCompany div a:hover,#menu li.menuProducts div a:hover,#menu li.menuInnovate div a:hover,#menu li.menuCsr div a:hover,#menu li.menuNews div a:hover{color:#333;text-decoration:none}
+	#menu li div p {margin:62px 0 25px 0;height:66px}
+	#menu li div p a{display:block;width:100%;height:66px;margin:0;padding:0;border:0;overflow:hidden;background:#fff url(../images/menu_new.gif)/*tpa=http://www.yiliaoshebei.com.cn/images/menu_new.gif*/ scroll 0 0 no-repeat}
+	#menu li.menuProducts div p a{background-position:-200px 0}
+	#menu li.menuInnovate div p a{background-position:-400px 0}
+	#menu li.menuCsr div p a{background-position:-600px 0}
+	#menu li.menuNews div p a{background-position:-800px 0}
+	#menu li.menuCompany div p a:hover{background-position:0 -100px}
+	#menu li.menuProducts div p a:hover{background-position:-200px -100px}
+	#menu li.menuInnovate div p a:hover{background-position:-400px -100px}
+	#menu li.menuCsr div p a:hover{background-position:-600px -100px}
+	#menu li.menuNews div p a:hover{background-position:-800px -100px}
+	#menu li a.menuCurrent{background:transparent url(../images/menu_new.gif)/*tpa=http://www.yiliaoshebei.com.cn/images/menu_new.gif*/ scroll 0 0 no-repeat}
+	#menu li.currnetCompany{background-position:0 -250px}
+	#menu li.currnetProducts{background-position:-200px -250px}
+	#menu li.currnetInnovate{background-position:-400px -250px}
+	#menu li.currnetCsr{background-position:-600px -250px}
+	#menu li.currnetNews{background-position:-800px -250px}
+	#menu li.menuCurrent{background-position:-600px -250px}
+	#menu li.menuCurrent{background-position:-800px -250px}
+	#menu li div ul{margin:0;padding:0;width:157px;position:relative;top:0;left:0;border-top:1px solid #e5e5e5;}
+	#menu li div li{float:none;width:157px;line-height:1.1em;background:none;height:auto}
+	/*default*/
+	#menu li div{top:-4444px}
+	#menu li:hover div,
+	#menu li.current:hover div{top:0}
+	/*js-enabled*/
+	.js-enabled #menu li div{display:none; top:0}
+	.js-enabled #menu li:hover div,
+	.js-enabled #menu li.current:hover div{display:block;}
+	
+	/*#content{width:945px;margin:-20px 5px 0px 5px;padding:0 0 70px;position:relative;z-index:1;width:935px}*/
+	#content{width:100%;position:relative;z-index:1;}
+	#content #homeVisual img{ width:100%;}
+	
+	
+	#home #content{padding-bottom:0px;background-color:#FFFFFF}
+	* html #content{top:-20px;margin-top:0;margin-bottom:-24px} /*IE6*/
+	*+html #content{top:-20px;margin-top:0;margin-bottom:-24px} /*IE7*/
+	#mainContainer{padding-top:108px;background-color:#FFFFFF}
+	#sidebar{display:inline;float:left;width:180px;margin-left:20px;overflow:hidden}
+	#sidebarNav{display:block;border:solid 1px #ccc;padding:30px 13px;width:180px;w\idth:152px}
+	#sidebarNav ul{width:152px;border-top:1px solid #e5e5e5}
+	#sidebarNav ul li{width:152px;height:39px;line-height:39px;border-bottom:1px solid #e5e5e5}
+	#contentContainer{display:inline;float:left;width:691px;margin-left:24px;overflow:hidden;background-color:#FFFFFF;color:#666;}
+	#mainContent{display:inline;float:left;width:471px;overflow:hidden;background-color:#FFFFFF}
+	#mainContent .h3{display:block;width:100%;}
+	#mainContent .h3 span{display:block;text-indent:-9999px}
+	#mainContent .readMore{position:absolute;top:2px;right:4px;color:#ffb80f}
+	#contentSidebar{display:inline;float:left;width:189px;margin-left:27px;background-color:#FFFFFF}
+	#homeContent{margin:0 33px 5px 20px;position:relative;zoom:1}
+	#homeContent .h3{height:19px;border-bottom:solid 1px #3A80A1;margin-bottom:15px;overflow:hidden}
+	#homeContent .h3 span{display:block;text-indent:-9999px}
+	#homeContent .h4{color:#444;line-height:1.1em;margin:0 0 10px;padding:0;font-size:12px;font-weight:normal}
+	#homeContent p{color:#888;line-height:1.3em;margin:0;padding-left:6px}
+	#homeContent .readMore{display:block;position:absolute;top:3px;right:0;width:33px;height:15px;overflow:hidden;background-position:0 -200px}
+	#homeContent .readMore span{display:block;text-indent:-9999px}
+	#hNews{display:inline;float:left;width:544px;position:relative}
+	#hHeadline{display:inline;float:left;width:285px;}
+	#hHeadline img{display:inline;float:left;width:112px;height:71px;margin-top:1px}
+	#hHeadline .summary{display:inline;float:left;width:159px;margin-left:14px}
+	#hHeadline .summary .content{ color:#888;}
+	#hNewsList{display:inline;float:right;width:241px;padding-bottom:31px;position:relative}
+	.hPager{height:24px;line-height:24px;color:#888;font-family:Arial;position:absolute;bottom:0;right:2px}
+	.hPager .hPagerList{float:right;font-size:14px;margin-right:18px}
+	.hPager a{float:right}
+	.hPager a.pagerNext,.hPager a.pagerPrev{width:25px;height:24px;overflow:hidden}
+	.hPager a.pagerPrev{margin-right:5px;background-position:0 -100px}
+	.hPager a.pagerNext{background-position:0 -150px}
+	.hPager a.pagerPrev:hover{background-position:-50px -100px}
+	.hPager a.pagerNext:hover{background-position:-50px -150px}
+	.hPager a span{display:block;text-indent:-9999px}
+	#hProducts{display:inline;float:left;width:290px;margin-left:48px;position:relative}
+	#hProducts .h3{border-color:#f06900;background-position:0 -50px}
+	#hProducts .hpVisual{display:inline;float:left;width:75px;text-align:center}
+	#hProducts .hpVisual img{ width:75px; height:75px;}
+	#hProducts .hpVisual a{color:#888;line-height:2em}
+	#hProducts .summary{display:inline;float:right;width:207px}
+	.hHope,.hShenghuojia{width:112px;height:37px;overflow:hidden;position:absolute;top:-62px;right:120px;background:transparent url(file:///C|/Users/Administrator/Desktop/images/hBanner_hopeSchool.gif) scroll 0 0 no-repeat}
+	.hHope a,.hShenghuojia a{display:block;width:100%;height:37px;overflow:hidden}
+	.hHope a span,.hShenghuojia a span{display:block;text-indent:-9999px}
+	.hShenghuojia{width:108px;right:0;background:transparent url(file:///C|/Users/Administrator/Desktop/images/hBanner_shenghuojia.jpg) scroll 0 0 no-repeat}
+	.hThxMomBanner{width:900px;height:110px;overflow:hidden;margin:0 auto 20px}
+	.hThxMomBanner img{display:block}
+	
+	.list{width:471px;border-top:solid 1px #ccc;text-align:left}
+	.list td,.list th{border-bottom:solid 1px #ccc}
+	.list td{padding:8px 0}
+	.list th.lDate{color:#888;padding-left:10px;font-weight:normal;text-align:left}
+	.list td.lChannel{text-align:right;padding-right:3px}
+	.list td.lChannel a{color:#888}
+	.list td.lChannel a:hover{color:#888;text-decoration:underline}
+	
+	.eliteContainer{border:solid 1px #ccc;padding:10px}
+	.eliteContainer .eliteImg{width:449px;overflow:hidden}
+	.eliteContainer .eliteImg img{display:block}
+	.eliteContainer p{background-color:#eee;padding:13px;margin:11px 0 0}
+	.eliteContainer p a{color:#444;font-weight:bold}
+	.eliteContainer p a:hover{color:#444;text-decoration:underline}
+	.eliteContainer p span{padding-left:10px}
+	
+	.eliteContainer2{border:solid 1px #ccc;width:654px;height:334px;padding:10px;position:relative;overflow:hidden;w\idth:634px;he\ight:314px}
+	.eliteContainer2 .eliteImg{display:inline;float:left;width:296px;height:314px;overflow:hidden}
+	.eliteContainer2 .eliteSummery{display:inline;float:left;width:326px;height:314px;margin-left:9px; overflow:hidden;background-color:#EEEEEE}
+	.eliteContainer2 .h4{margin:0;padding:15px;}
+	.eliteContainer2 .h4 a{display:inline;color:#3A80A1;font-weight:normal;font-size:12px;line-height:1.5em}
+	.eliteSummery p{padding:0 15px;color:#444}
+	.eliteContainer2 .tPager{width:284px}
+	
+	.themeContainer{border:solid 1px #ccc;padding:10px;position:relative; height:1%;}
+	.themeImg{display:block;width:449px;overflow:hidden}
+	.themeContainer .themeSummery{background-color:#eee;padding:13px 24px 63px;margin:10px 0 0}
+	.themeContainer .themeSummery li{width:401px}
+	.themeSummery .h4{display:inline;margin:0;padding:0 35px 0 0}
+	.themeSummery .h4 a{display:inline;color:#3A80A1;font-weight:normal;font-size:12px}
+	.themeSummery .summary{ padding:10px 0;}
+	.themeSummery span.tDate{color:#444}
+	.themeContainer p{color:#444;margin:0.5em auto}
+	.tPager{line-height:30px;color:#515151;font-size:11px;font-family:Arial;position:absolute;bottom:30px;right:40px;}
+	.tPager li{display:inline;float:left;background-color:#eee}
+	.tPager .count{float:left;font-size:14px;margin-right:14px}
+	.tPager a.pagerPrev,.tPager a.pagerNext{background:transparent url(file:///C|/Users/Administrator/Desktop/images/tPager.gif) scroll 0 0 no-repeat;width:30px;height:30px;overflow:hidden}
+	.tPager a.pagerPrev{margin-right:5px}
+	.tPager a.pagerNext{background-position:0 -50px}
+	.tPager a.pagerPrev:hover{background-position:-50px 0}
+	.tPager a.pagerNext:hover{background-position:-50px -50px}
+	.tPager a span{display:block;text-indent:-9999px}
+	.allTheme{padding-left:8px;color:#16a9e1;position:absolute;left:35px;bottom:38px;background:transparent url(file:///C|/Users/Administrator/Desktop/images/arrowsTheme.gif) scroll 0 3px no-repeat}
+	.allTheme:hover{color:#16a9e1;text-decoration:none}
+	
+	.eliteContainer2 span.tDate{padding-left:35px;color:#444}
+	.eliteContainer2 p{color:#444;margin:0.5em auto}
+	.eliteContainer2 .tPager .count{ width:200px;}
+	
+	/*new*/
+	.newsDetail{position:relative;margin-bottom:36px;padding-bottom:12px;border-bottom:solid 1px #CCC}
+	.newsDetail p{font-size:14px}
+	.newsDetail .postDate{ border-bottom:solid 1px #CCC;color:#888;padding:10px 10px 5px 0;text-align:right;}
+	.newsDetail .title{ color:#3A80A1;text-align:center;margin:30px 0;}
+	.newsDetail .title .h2{ font-size:20px;margin:3px 0;}
+	.newsDetail .title .h3{ font-size:16px;font-weight:normal;margin:3px 0;}
+	.newsDetail .detailCnt a{ color:#3A80A1;}
+	.newsDetail .detailContent ul{ color:#666;}
+	.newsDetail .detailContent h2, .newsDetail .detailContent h3, .newsDetail .detailContent h4{ color:#3A80A1}
+	.reference{
+	/*margin:15px 0 30px 250px;
+        _margin:15px 0 30px 130px;*/
+padding-top: 10px;
+_padding-top: 10px;
+padding-bottom: 10px;
+_padding-bottom: 10px;
+float: right;
+padding-right: 160px;
+_padding-right: 160px;
+	/*overflow:hidden;*/
+	line-height:26px;}
+	.reference .h3{background:transparent url(../images/related_news.gif)/*tpa=http://www.yiliaoshebei.com.cn/images/related_news.gif*/ scroll 0 0 no-repeat;padding-bottom:10px;}
+	.reference .h3 span{display:block;font-size: 20px;}
+	
+#footer{background: url(../images/bg-content-bottom.png)/*tpa=http://www.yiliaoshebei.com.cn/images/bg-content-bottom.png*/ 0 0 no-repeat;margin:0 auto;padding:10px 5px 10px 5px;width:935px;height:auto;color:#fff; line-height:20px; font-family:"宋体"; }
+#footer span {
+    margin-right:10px;
+	font-family:"宋体";
+	}
+#footer span a {
+    text-decoration:none;
+	color:#FFFFFF;
+	font-family:"宋体";
+	}
+	
+
+/* */
+.pager { font-size: 12px; color: #000; font-family: Verdana; width: 100%; float: left; }
+.pager div { float: left; line-height: 14px; }
+.pager .pagerPrev, .pager .pagerNext { margin: auto 6px; line-height: 16px; }
+.pager .pagerPrev { margin-left: 0; }
+.pager .pagerPrev a, .pager .pagerNext a { color: #000; }
+.pager .pagerIndex a { margin: auto 4px; color: #000; }
+.pager .pagerPrev a:hover, .pager .pagerNext a:hover, .pager .pagerIndex a:hover { color: #FF7000; text-decoration: none; }
+.pager .pagerIndex span { margin: auto 4px; }
+.pager .pagerCurrent { font-weight: bold; color: #808080; }
+.pager .pagerGoTo { margin: auto auto auto 10px; float: right; color: #808080; }
+.pager .pagerTextBox { font-size: 12px; font-family: Verdana; width: 32px; height: 14px; line-height: 14px; margin: 0 5px; padding: 0px 1px; border: 1px solid #AAA;}
+.pager .pagerButton { font-size: 12px; font-family: Verdana; width: 50px; height:20px; margin-left: 5px;}
+
+.newsCaption{background:transparent url(file:///C|/Users/Administrator/Desktop/images/news_captions.gif) scroll 0 0 no-repeat}
+.sNewsPressroom{margin-bottom:30px}
+.sNewsPressroom .h3{width:87px;height:14px;margin-bottom:11px;overflow:hidden;text-align:left;background-position:0 -650px}
+.sNewsPressroom .h3 span{display:block;text-indent:-9999px}
+.sNewsPressroom a{color:#888}
+.sNewsPressroom a span{display:block;margin-top:4px;line-height:16px}
+.sNewsPressroom .h4{margin-bottom:5px; margin-left:10px; padding-left:10px; color:#444; font-size:12px; overflow:hidden;background:transparent url(file:///C|/Users/Administrator/Desktop/images/block_blue.gif) scroll 0 6px no-repeat}
+.sNewsPressroom .pressroomNews{ margin-left:20px;}
+.sNewsPressroom .pressroomNews .title{ color:#3A80A1;}
+.sNewsPressroom .pressroomImg{ width:187px; height:103px; margin-bottom:5px; display:block; overflow:hidden;}
+
+
+/*mainContent layout*/
+.pBanner{ margin:32px 0 40px; border-bottom:3px solid #CCCCCC; padding-bottom:32px}
+.pBanner span{ text-indent:-9999px; display:block;}
+.caption{margin:0 0 43px;height:16px;line-height:16px}
+.topic{font-weight:bold;color:#444;border-top:1px solid #ccc;border-bottom:1px dashed #ccc;height:23px;line-height:23px;margin:0;font-size:12px}
+.captionIcon{background:transparent url(file:///C|/Users/Administrator/Desktop/Csr/images/goal_icon.gif) scroll 0 0 no-repeat;height:50px;padding-left:60px;overflow:hidden;margin:0 0 25px}
+.caption2{ height:16px; margin-top:19px}
+.topicC{padding:18px 0 22px}
+.topicC p{color:#888}
+
+
+/*2011.7.15 oralbBanner*/
+.oralbBanner{position:absolute;top:160px;right:80px;width:354px;height:221px;background:url(file:///C|/Users/Administrator/Desktop/images/OralB-banner.gif) no-repeat;z-index:99;overflow:hidden;}
+.oralbBannerCon{position:relative;width:354px;height:221px;}
+.oralbBanner span{text-indent:-9999px;display:block;}
+.btnClose span a{display:block;width:70px;height:30px;position:absolute;top:0px;right:0px;overflow:hidden;outline:none;}
+.btnMore span a{display:block;width:110px;height:31px;position:absolute;bottom:25px;right:122px;overflow:hidden;outline:none;}
+
+
+.zhuyaoneirong {
+    width:935px;
+	height: auto;
+	margin:0 auto;
+	padding:0;
+	background:#DCDCDC;
+	overflow:hidden;
+	_margin-bottom:10px;
+	*margin-bottom:10px;
+	}
+.cpzx {
+    width:283px;
+	height:376px;
+	background:url(../images/cpzx_bg.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/cpzx_bg.jpg*/;
+	float:left;
+	margin-left:10px;
+	_margin-left:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	line-height:20px;
+	padding:28px 0px 0px 14px;
+	*margin-bottom:10px;
+	}
+.cpzx ul li,.cpzx_r ul li {
+    list-style:none;
+	background:url(../images/diandian.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/diandian.jpg*/ no-repeat 0px 10px;
+	text-indent:20px;	
+	line-height:24px;
+	color:#636363;
+	}
+.cpzx a {
+	text-decoration:none;
+	}
+.cpzx a:hover {
+    color:#3A80A1;
+	}
+.cpzx_r {
+    width:150px;
+	height:404px;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	}
+.new {
+    width:391px;
+	height:376px;
+	line-height:20px;
+	margin-left:0px;
+	float:left;
+	background:url(../images/cpzx_bg.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/cpzx_bg.jpg*/;
+	padding:28px 0px 0px 14px;
+	font-family:"宋体";
+	color:#636363;
+	}	
+.new img {
+     border:1px solid #c1d5e3;
+	 display:block;
+	 float:left;
+	}
+
+.new dd {
+    text-align:center;
+	margin-left:5px;
+	margin-top:10px;
+	}
+.lianxi {
+    width:178px;
+	float: right;
+	height:376px;
+	margin-right:10px;
+	_margin-right:5px;
+	margin-top:10px;
+	line-height:20px;
+	padding:28px 0px 0px 14px;
+	background:url(../images/cpzx_bg.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/cpzx_bg.jpg*/;
+	font-family:"宋体";
+	color:#636363;
+	}
+.lianxi dl dd {
+    overflow:hidden;
+	margin-top:15px;
+	font-family:"宋体";
+	color:#636363;
+	}
+.zhuyaoneirong2 {
+    width:935px;
+	height: auto;
+	margin:0 auto;
+	padding:0;
+	background:#DCDCDC;
+	overflow:hidden;
+	_margin-bottom:10px;
+	*margin-bottom:10px;
+	}
+.cpzx2 {
+    width:283px;
+	height:198px;
+	float:left;
+	background:url(../images/cpzx_bg.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/cpzx_bg.jpg*/;
+	margin-left:10px;
+	_margin-left:5px;
+	margin-bottom:10px;
+	line-height:20px;
+	text-align:left;
+	padding:28px 0px 0px 14px;
+	font-family:"宋体";
+	color:#636363;
+	}
+.cpzx2 ul li {
+    list-style:none;
+	background:url(../images/hangyexiaotu.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/hangyexiaotu.jpg*/ no-repeat 0 6px;
+	margin-left:10px;
+	text-indent:20px;
+	line-height:24px;
+  }
+/*.cpzx2 img {
+    float:left;
+	margin-left:22px;
+	margin-right:11px;
+	}*/
+.cpzx2 a {
+	text-decoration:none;
+	}
+.cpzx2 a:hover {
+    color:#3A80A1;
+	}
+	.cpzx2_r2 {
+    width:220px;
+	height:226px;
+	float:left;
+	margin-left:22px;
+	font-family:"宋体";
+	color:#636363;
+	}
+
+	
+
+.cpzx2_r {
+    width:160px;
+	height:226px;
+	float:left;
+	margin-left:10px;
+	font-family:"宋体";
+	color:#636363;
+	}
+.cpsj {
+    width:160px;
+	height:200px;
+	margin-left:0px;
+	float:left;
+	background:url(../images/cpzx_bg.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/cpzx_bg.jpg*/;
+	font-size:12px;
+	text-align:left;
+	padding:26px 0px 0px 14px;
+	}	
+.cpsj ul li {
+    list-style:none;
+	background:url(../images/diandian.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/diandian.jpg*/ no-repeat -5px 9px;
+	text-indent: 10px;
+	line-height:24px;
+  }
+.cpsj img {
+    float:left;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:26px;
+	}
+.yhqd {
+    width:178px;
+	height:198px;
+	background:url(../images/cpzx_bg.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/cpzx_bg.jpg*/;
+	float:right;
+	font-family:"宋体";
+	line-height:14px;
+	text-align:left;
+	margin-right:10px;
+	_margin-right:5px;
+	line-height:10px;
+	padding:28px 0px 0px 14px;
+	}	
+.yhqd img {
+    margin-left:10px;
+	margin-right:9px;
+	margin-bottom:14px;
+	}
+.yhqd ul li {
+    list-style:none;
+	background:url(../images/xiaotu1.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/xiaotu1.jpg*/ no-repeat 0 6px;
+	text-indent:20px;
+	line-height:24px;
+	margin-left:0px;
+  }
+#demo {
+    width:915px;
+	height: auto;
+	margin:0 auto;
+	padding:0;
+	background:#FFFFFF;
+	overflow:hidden;
+	margin-bottom:10px;
+	text-align:center;
+	line-height:30px;
+	font-family:"宋体";
+	color:#636363;
+	}
+.guanyudd dl dd {
+    float:left;
+	width:137px;
+	color:#646464;
+	padding-bottom:10px;
+	overflow:hidden;
+	margin:16px 13px 6px 0;
+	} 
+.guanyudd dl dd img {
+    border:1px solid #c1d5e3;
+	/*margin:16px 20px 6px 0;*/	
+	} 		
+.new_img {
+	width:104px;
+	height:82px;
+	float:left;
+	overflow:hidden;
+	}
+.new_liebiao {
+	width:350px;
+	height:82px;
+	float:left;
+	overflow:hidden;
+	line-height:20px;
+	}
+.new_liebiao a {
+    text-decoration:none;
+	}
+.new_liebiao a:hover {
+    color:#3A80A1;
+	}
+.new_wb {
+	width:150px;
+	float:left;
+	height:82px;
+	overflow:hidden;
+	}
+.fwrk {
+    width:297px;
+	height:151px;
+	margin-top:10px;
+	background:url(../images/rukou_bg.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/rukou_bg.jpg*/;
+	float:left;
+	overflow:hidden;
+	}
+.fwrk a {
+    text-decoration:none;
+	}
+.fwrk a:hover {
+    color:#3A80A1;
+	}
+.fwrk ul li {
+    float:left;
+	list-style:none;
+	}
+.fwrk_02 {
+    width:297px;
+	height:151px;
+	margin-top:10px;
+	background:url(../images/rukou_bg.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/rukou_bg.jpg*/ repeat-x;
+	margin-left:10px;
+	float:left;
+	overflow:hidden;
+	}
+h2 {
+    font-family:"宋体";
+	font-size:18px;
+	font-weight:normal;
+	color:#005CA9;
+	margin:0px;
+	padding:0px;
+	margin-bottom:15px;
+	font-weight:bold;
+	}
+h2 a {
+    color:#3A80A1; text-decoration:none;
+	}
+h2 a:hover {
+    text-decoration:none; 
+	}	
+h3 {
+    font-family:"宋体";
+	font-size:12px;
+	font-weight:normal;
+	color:#3A80A1;
+	}
+	
+	
+	.yejiaoxinxi {
+    width:914px;
+background:#FFFFFF;
+margin:0 auto;
+line-height:20px;
+overflow:hidden;
+text-align:left;
+font-family:"宋体";
+color:#636363;
+    }
+.xinxi_kd {
+    width:139px;
+float:left;
+margin:15px 20px 15px 23px;
+_margin:15px 16px 15px 16px;
+}
+.xinxi_kd ul li {
+    list-style:none;
+}
+.xinxi_kd ul li a {
+    margin-left:10px;
+text-decoration:none; 
+}
+.xinxi_kd ul li a:hover {
+    color:#3A80A1;
+    }
+.jjfa {
+    
+background:#FFFFFF;
+margin:0 auto;
+overflow:hidden;
+border:1px solid #BBBBBB;
+margin-bottom:10px;
+margin-top:10px; 
+    }
+.jjfa_l {
+    width:20%;
+float:left;
+overflow:hidden;
+margin:15px 0 30px 1%;
+line-height:40px;
+}
+.jjfa_l dt {
+    border-bottom:1px solid #BBBBBB;
+padding:5px 0 12px 0;
+_padding:5px 0 8px 0;
+}
+.jjfa_l ul li {
+    border-bottom:1px solid #DEDEDE;
+}
+.jjfa_l ul li a:hover {
+    text-decoration:none;
+color:#3A80A1;
+}
+.jjfa_r {
+    width: 70%;
+float:left;
+margin:15px 0 30px 2%;
+overflow:hidden;
+line-height:26px;
+padding-left: 40px;
+}
+.r_01 {
+    text-align:center;
+    font-size:20px;
+padding-top: 30px;
+    font-family:"宋体";
+    color:#3A80A1;
+text-indent:10px;
+}
+.r_02 {
+padding-top: 30px;
+    text-align:center;
+border-bottom: 1px dashed #CCC;
+}
+.r_03 {
+    color:#666;
+margin-top:10px;
+padding-top: 10px;
+}
+.xinwen_li {
+    margin-top:15px;
+border-bottom:1px dashed #DEDEDE;
+overflow:hidden;
+text-indent:20px;
+background:url(../images/diandian.jpg)/*tpa=http://www.yiliaoshebei.com.cn/images/diandian.jpg*/ no-repeat 0 11px;
+color:#888888;
+}
+.xinwen_li li {
+    float:left;
+list-style:none;
+height:28px;
+}
+.xinwen_li li a {
+    color: #666666;
+text-decoration:none;
+}
+.xinwen_li li a:hover {
+color:#3A80A1;
+}
+.xinwen_li_01 {
+    width:60%;
+overflow:hidden;
+}
+.xinwen_li_02 {
+    width:20%;
+text-align:right;
+overflow:hidden;
+}
+.xinwen_li_03 {
+    width:20%;
+text-align:right;
+overflow:hidden;
+}
+
+.xiayiye li {
+    float:left;
+	list-style:none;
+	}	
+.xiayiye a {
+	padding:5px;
+	color: #000000;
+	}
+.biaoqian {
+     margin-top:35px;
+	 line-height:normal;
+	 
+	 }
+	.biaoqian span
+	{
+	    display:inline-block;
+	    *+margin:5px 0 5px 0;
+	}
+.biaoqian span a {
+    padding:5px 10px;
+	float:left;
+	background:#D9F3FD;
+	text-decoration:none;
+	color:#3A80A1;
+	margin:0 10px 10px 0;
+	}
+.biaoqian span a:hover {
+    padding:5px 10px;
+	background: #3A80A1;
+	color:#FFFFFF;
+	}
+.lyfk {
+	border:1px solid #D9F3FD;
+	overflow:hidden;
+	padding:1px;
+	margin-bottom:15px;
+	}
+.lyfk_dt {
+    height:26px;
+	background:#D9F3FD;
+	padding:0 10px;
+	}
+.lyfk_dd {
+	padding:15px 10px;
+	color:#666666;
+	
+	
+	 #lib_Tab1
+        {
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 15px;
+        }
+        /*caid class*/
+        .lib_tabborder
+        {
+            /*border:1px solid #95C9E1;*/
+        }
+        .lib_Menubox
+        {
+            height: 28px;
+            line-height: 28px;
+        }
+        .lib_Menubox ul
+        {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            height: 25px;
+        }
+        .lib_Menubox li
+        {
+            float: left;
+            display: block;
+            cursor: pointer;
+            margin-right: 4px;
+            _margin-right: 1px;
+            height: 25px;
+            line-height: 25px;
+            margin-left: 4px;
+            _margin-left: 1px;
+        }
+        .lib_Menubox li.hover
+        {
+            padding: 0px;
+            background: #fff;
+            color: #739242;
+            height: 25px;
+            line-height: 25px;
+        }
+        .lib_Menubox li a
+        {
+            color: #679825;
+            font-size: 16px;
+            font-family: "宋体";
+            padding: 0 8px;
+        }
+        .lib_Contentbox
+        {
+            clear: both;
+            height: 181px;
+            line-height: 24px;
+            text-align: left;
+            margin: 5px 0 0 13px;
+        }
+        .lib_Contentbox a
+        {
+            text-decoration: none;
+        }
+        .lib_Contentbox a:hover
+        {
+            color: #3A80A1;
+        }
+        .STYLE2
+        {
+            color: #FF6600;
+        }
+        .lyfk {
+	border:1px solid #D9F3FD;
+	overflow:hidden;
+	padding:1px;
+	margin-bottom:15px;
+	}
+.lyfk_dt {
+    height:26px;
+	background:#D9F3FD;
+	padding:0 10px;
+	}
+.lyfk_dd {
+	padding:15px 10px;
+	color:#666666;
+	}
+	
+	
